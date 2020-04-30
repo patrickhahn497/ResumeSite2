@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ResumeSite2/static/css/main.ee86ca27.chunk.css",
+    "main.js": "/ResumeSite2/static/js/main.3c650bde.chunk.js",
+    "main.js.map": "/ResumeSite2/static/js/main.3c650bde.chunk.js.map",
+    "runtime-main.js": "/ResumeSite2/static/js/runtime-main.7f9f1380.js",
+    "runtime-main.js.map": "/ResumeSite2/static/js/runtime-main.7f9f1380.js.map",
+    "static/js/2.1f71585c.chunk.js": "/ResumeSite2/static/js/2.1f71585c.chunk.js",
+    "static/js/2.1f71585c.chunk.js.map": "/ResumeSite2/static/js/2.1f71585c.chunk.js.map",
+    "index.html": "/ResumeSite2/index.html",
+    "precache-manifest.027b628c5be02e9639bed787ae5862a6.js": "/ResumeSite2/precache-manifest.027b628c5be02e9639bed787ae5862a6.js",
+    "service-worker.js": "/ResumeSite2/service-worker.js",
+    "static/css/main.ee86ca27.chunk.css.map": "/ResumeSite2/static/css/main.ee86ca27.chunk.css.map",
+    "static/js/2.1f71585c.chunk.js.LICENSE.txt": "/ResumeSite2/static/js/2.1f71585c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ResumeSite2/static/media/logo.5d5d9eef.svg",
+    "static/media/Home.css": "/ResumeSite2/static/media/starrysky2.6c042104.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f9f1380.js",
+    "static/js/2.1f71585c.chunk.js",
+    "static/css/main.ee86ca27.chunk.css",
+    "static/js/main.3c650bde.chunk.js"
+  ]
+}
