@@ -39,18 +39,19 @@ hr {
          0px 18px 23px rgba(0,0,0,0.1);
 }
 
-.expbutton{
+/*.expbutton{
   text-align: center;
   border: 5px solid grey;
 /*  background:
     filter: blur(8px);*/
-  backdrop-filter: blur(9px);
+/*  backdrop-filter: blur(9px);
   width: 40rem;
+  color: white;*/
   
 
-}
+/*}*/
 
-.expbutton:hover{
+/*.expbutton:hover{
   background-color: steelblue;
 
 }
@@ -61,12 +62,20 @@ hr {
 
 }
 
+.expbutton a {
+  color: white;
+}
+
 .buttoncontainer:hover {
   transform: scale(1.05);
-  color: white;
 
-}
+}*/
  
+.mainbody{
+  margin-top: 0px;
+}
+
+
 /*so what we have here is a white line with a slight dark bottom that makes it look like a shadow*/
 hr {
   width: 50rem;
@@ -74,26 +83,11 @@ hr {
   border-bottom: 1px solid rgba(0,0,0,0.2); 
 }
 
-.starrybackground {
-  /*background: url(https://newevolutiondesigns.com/images/freebies/cat-wallpaper-2.jpg);*/
-  background: linear-gradient(
-          rgba(0, 0, 0, 0.6), 
-          rgba(0, 0, 0, 0.6)
-        ),
-        /* bottom, image */
-        url(starrysky2.jpg);
-/*  background: url(starrysky2.jpg).;*/
-  background-size: cover;
-  background-position: center;
-  font-family: Lato;
-  color: white;
-  height: 100vh;
-  display: grid;
-  justify-content: center;
-  justify-items: center;
 
-}
 
+/*.mainbody {
+  height: 110vh;
+}*/
 
 .midcontainer {
   display: flex;

@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './Components/Home/Home';
 import Academics from './Components/Academics/Academics';
-import Projects from './Components/Projects';
+import Projects from './Components/Projects/Projects';
 import Experience from './Components/Experience/Experience';
 import Navigation from './Components/Navigation/Navigation';
 
@@ -23,25 +23,30 @@ class App extends Component {
     this.setState({route: route});
   }
 
+  isNavPanelActive = (route) => {
+    if (this.state.route===route){
+        return "active";
+    }
+    return "";
+  }
+
 
 
   render() {
     return (
       <div className="">
-      <Home/>
-      <Academics/>
-      <Projects/>
-      <Experience/>
+      <Navigation onRouteChange={this.onRouteChange} isNavPanelActive={this.isNavPanelActive}/>
+        <div className="mainbody">
+        {
+            {
+                'home': <Home/>,
+                'academics': <Academics/>,
+                'projects': <Projects/>,
+                'experience': <Experience/>
+            }[this.state.route]
+        }
+        </div>
 
-      {
-        //     {
-        //     //     'home': <Home/>,
-        //     //     'academics': <Academics/>,
-        //     //     'projects': <Projects/>,
-        //     //     'experience': <Experience/>
-        //     // }[this.state.route]
-        // }
-    }
 
 
 

@@ -3,3 +3,62 @@
   font-size: 5em;
   text-shadow: 2;
 }
+
+.homecontainer {
+/*	height: 110vh;*/
+/*	display: grid;*/
+/*	align-content: center;*/
+/*	align-items: center;*/
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.starrybackground {
+  /*background: url(https://newevolutiondesigns.com/images/freebies/cat-wallpaper-2.jpg);*/
+  background: linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        /* bottom, image */
+        url(starrysky2.jpg);
+/*  background: url(starrysky2.jpg).;*/
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  color: white;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+
+}
+
+.expbutton{
+  text-align: center;
+  border: 5px solid grey;
+  backdrop-filter: blur(9px);
+  width: 40rem;
+  color: white;
+  
+
+}
+
+.expbutton:hover{
+  background-color: steelblue;
+
+}
+
+.buttoncontainer{
+  margin: 10px;
+  transition: all 0.5s;
+
+}
+
+.expbutton a {
+  color: white;
+}
+
+.buttoncontainer:hover {
+  transform: scale(1.05);
+
+}

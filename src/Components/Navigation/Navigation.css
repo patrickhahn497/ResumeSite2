@@ -9,6 +9,37 @@ Navbar {
 }*/
 
 
-@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+/*@import nav from url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");*/
 
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+
+.navpanel {
+	display: grid;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	justify-items: center;
+	justify-self: center;
+	color: red;
+	vertical-align: middle;
+}
+
+
+.navbar {
+/*    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;*/
+    padding: .5rem 1rem;
+    margin-bottom: 0px;
+/*    color: blue;*/
+/*    background-color: #001a33;*/
+
+}
+
+/*.navbar-default .navbar-brand{
+	color: white;
+}*/

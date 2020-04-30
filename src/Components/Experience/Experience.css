@@ -2,6 +2,7 @@
 .exppage {
 	display: grid;
 	justify-items: center;
+	height: 100vh;
 
 }
 

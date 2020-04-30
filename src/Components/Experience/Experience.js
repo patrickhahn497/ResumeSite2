@@ -20,7 +20,7 @@ const Experience = ({}) => {
 			</div>
 			<div className="exp block top-border">
 				<div className="exptitle">
-					<h2> Magikid Robotics: Instructor </h2>
+					<h2> Magikid Robotics Lab: Instructor </h2>
 					<h3> November 2018 - June 2019 </h3>
 				</div>
 				<ul>
