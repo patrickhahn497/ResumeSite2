@@ -2,7 +2,8 @@
 .exppage {
 	display: grid;
 	justify-items: center;
-	height: 100vh;
+	margin-top: 1px;
+/*	height: 100vh;*/
 
 }
 
@@ -24,6 +25,7 @@
 	display: flex;
 	width: 102%;
 	justify-content: space-between;
+	margin-top: 2rem;
 }
 
 .exp ul {
