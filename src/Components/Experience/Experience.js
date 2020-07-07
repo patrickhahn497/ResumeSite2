@@ -21,7 +21,7 @@ const Experience = ({}) => {
 			<div className="exp block top-border">
 				<div className="exptitle">
 					<h2> Magikid Robotics Lab: Instructor </h2>
-					<h3> November 2018 - June 2019 </h3>
+					<h3 className="date"> November 2018 - June 2019 </h3>
 				</div>
 				<ul>
 					<li> Taught childen how to build and program robots through the use of tools such as Wonder and Lego Mindstorms EV3. </li>
@@ -31,7 +31,7 @@ const Experience = ({}) => {
 			<div className="exp block top-border">
 				<div className="exptitle">
 					<h2> Infobank: Software Engineering Intern </h2>
-					<h3> June 2018 - August 2018 </h3>
+					<h3 className="date"> June 2018 - August 2018 </h3>
 				</div>
 				<ul>
 					<li> Used Spark dataframes in Scala to retrieve and analyze vehicle trip information stored in a Mongo database. (eg. Given coordinates, uses a geocoder to obtain the address then only returns information about a certain district) </li>
